@@ -5,11 +5,11 @@ LABEL   devoply.type="site" \
         devoply.cms="wordpress" \
         devoply.framework="wordpress" \
         devoply.language="php7" \
-        devoply.require="mariadb etopian/nginx-proxy" \
+        devoply.require="mariadb knurp5/nginx-proxy" \
         devoply.recommend="redis" \
         devoply.description="WordPress on Nginx and PHP-FPM with WP-CLI." \
         devoply.name="WordPress" \
-        devoply.params="docker run -d --name {container_name} -e VIRTUAL_HOST={virtual_hosts} -v /data/sites/{domain_name}:/DATA etopian/alpine-php7-wordpress"
+        devoply.params="docker run -d --name {container_name} -e VIRTUAL_HOST={virtual_hosts} -v /data/sites/{domain_name}:/DATA knurp5/alpine-php7-wordpress"
 
 
 
